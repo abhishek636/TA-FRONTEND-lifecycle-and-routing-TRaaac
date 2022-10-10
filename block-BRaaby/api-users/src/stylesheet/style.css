@@ -1,0 +1,107 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.779) 0%,
+        rgba(0, 0, 0, 0.779) 50%,                                                                 
+        rgba(255, 255, 255, 0.817) 50%,
+        rgba(255, 255, 255, 0.817) 100%
+    );
+    padding: 100px 300px;
+    text-align: center;
+    color: black;
+}
+
+.profile-container{
+	background: linear-gradient(
+		to bottom,
+		rgba(95, 214, 208, 0.731) 0%,
+		rgba(95, 214, 208, 0.731)	 30%,
+		rgba(255, 255, 255, 0.817) 50%,
+		rgba(255, 255, 255, 0.817)	 50%
+	);
+	height: 350px;
+	box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+	padding: 20px;
+}
+img{
+	border-radius: 50%;
+}
+.profileInfo-container{
+	margin: 30px  0 0 0 ;
+}
+h4{
+	font-size: 24px;
+	margin: 10px 0;
+	text-transform: uppercase;
+}
+
+h2{
+	font-size: 32px;
+}
+i{
+	width: 20px;
+	height: 20px;
+}
+button{
+	margin: 20px;
+	border: none;
+	background-color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+.random-button-container button{
+	background-color:rgba(0, 0, 255, 0.486) ;
+	padding: 10px 15px;
+	font-size: 18px;
+	border-radius: 8px;
+	box-shadow: 5px 5px 10px 0 black;
+}
